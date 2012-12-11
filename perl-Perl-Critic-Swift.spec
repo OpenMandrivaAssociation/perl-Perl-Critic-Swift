@@ -60,3 +60,14 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 1.0.3-2mdv2011.0
++ Revision: 655613
+- rebuild for updated spec-helper
+
+* Thu Sep 02 2010 Jérôme Quelin <jquelin@mandriva.org> 1.0.3-1mdv2011.0
++ Revision: 575423
+- import perl-Perl-Critic-Swift
+
