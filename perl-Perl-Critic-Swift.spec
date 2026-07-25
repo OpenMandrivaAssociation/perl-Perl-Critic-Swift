@@ -1,15 +1,15 @@
 %define upstream_name    Perl-Critic-Swift
-%define upstream_version v1.0.3
+%define upstream_version 1.000003
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    4
+Version:    %{upstream_version}
+Release:    1
 
 Summary:    Additional policies for Perl::Critic
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://metacpan.org/dist/Perl-Critic-Swift
+Source0:    https://cpan.metacpan.org/authors/id/E/EL/ELLIOTJS/Perl-Critic-Swift-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(English)
